@@ -1,0 +1,97 @@
+.hero-4 {
+    width: 100%;
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    .hero4-cont {
+
+        .head {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .hgroup {
+                width: 60%;
+                display: flex;
+                flex-direction: column;
+                margin-right: 400px;
+                h1 {
+                    width: 700px;
+                    font-weight: 700;
+                    color: #101828;
+                    font-size: 56px;
+
+                }
+                p {
+                    font-size: 24px;
+                    font-weight: 400;
+                    color: #475467;
+                }
+            }
+           
+            
+            .but {
+                width: 64px;
+                height: 64px;
+                border-radius: 50%;
+                border: none;
+                font-weight: 1000;
+                color: black;
+                &:hover {
+                    background-color: #000;
+                    color: #fff;
+                }
+            }
+             
+        }
+
+        .menu {
+            display: flex;
+            margin: 10px auto;
+            align-items: center;
+            justify-content: space-around;
+            .blok1 {
+                img {
+                    border-radius: 50%;
+                }
+                padding: 20px;
+                margin: 50px auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                width: 256px;
+                height: 330px;
+                border: 10px solid lightpink;
+                h1 {
+                    color: #101828;
+                    font-size: 18px;
+                }
+                span {
+                    color: #101828;
+                    font-size: 13px;
+                    font-weight: 500;
+                    line-height: 16px;
+                }
+                p {
+                    font-weight: 400;
+                    line-height: 28px;
+                    font-size: 16px;
+                    color: #667085;
+                    margin-top: 20px 0px;
+                }
+            }
+            .blok2 {
+              border: 10px solid lightblue;
+            }
+            .blok3 {
+                border: 10px solid plum;
+            }
+            .blok4 {
+                border: 10px solid lightblue;
+            }
+        }
+
+
+    }
+
+}

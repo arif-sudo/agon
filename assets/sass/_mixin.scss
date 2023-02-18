@@ -1,0 +1,36 @@
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+@mixin between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin around2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+@mixin evenly {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@mixin evenly2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
